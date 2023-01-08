@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guolala&#39;s Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://guolalala.github.io/</link>
     <description>Recent content on Guolala&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 08 Jan 2023 21:08:42 +0800</lastBuildDate>
     
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://guolalala.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jane 主题预览</title>
-      <link>http://localhost:1313/post/jane-theme-preview/</link>
+      <link>https://guolalala.github.io/post/jane-theme-preview/</link>
       <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/jane-theme-preview/</guid>
+      <guid>https://guolalala.github.io/post/jane-theme-preview/</guid>
       
         <description>&lt;p&gt;主题预览,内容有待填充。&lt;/p&gt;
 </description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://guolalala.github.io/about/</link>
       <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://guolalala.github.io/about/</guid>
       
         <description>&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
 &lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
@@ -45,10 +45,10 @@
     
     <item>
       <title>人工智能调研报告</title>
-      <link>http://localhost:1313/post/ai-survey/</link>
+      <link>https://guolalala.github.io/post/ai-survey/</link>
       <pubDate>Sun, 08 Jan 2023 21:08:42 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/ai-survey/</guid>
+      <guid>https://guolalala.github.io/post/ai-survey/</guid>
       
         <description>&lt;!-- raw HTML omitted --&gt;
 &lt;h2 id=&#34;0-引言&#34;&gt;0 引言&lt;/h2&gt;
@@ -206,10 +206,10 @@
     
     <item>
       <title>How to Contribute</title>
-      <link>http://localhost:1313/post/how-to-contribute/</link>
+      <link>https://guolalala.github.io/post/how-to-contribute/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/how-to-contribute/</guid>
+      <guid>https://guolalala.github.io/post/how-to-contribute/</guid>
       
         <description>&lt;h2 id=&#34;contributing-to-jane&#34;&gt;Contributing to Jane&lt;/h2&gt;
 &lt;p&gt;There are many ways to contribute to the Jane theme: submitting pull requests, reporting issues, providing new translations, and creating suggestions.&lt;/p&gt;
@@ -234,10 +234,10 @@
     
     <item>
       <title>Math Preview</title>
-      <link>http://localhost:1313/post/math-preview/</link>
+      <link>https://guolalala.github.io/post/math-preview/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/math-preview/</guid>
+      <guid>https://guolalala.github.io/post/math-preview/</guid>
       
         <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;
 
@@ -443,10 +443,10 @@ f(x) \sim x^2, \quad x\to\infty
     
     <item>
       <title>Shortcodes Preview</title>
-      <link>http://localhost:1313/post/shortcodes-preview/</link>
+      <link>https://guolalala.github.io/post/shortcodes-preview/</link>
       <pubDate>Sun, 04 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/shortcodes-preview/</guid>
+      <guid>https://guolalala.github.io/post/shortcodes-preview/</guid>
       
         <description>&lt;h2 id=&#34;what-a-shortcode-is&#34;&gt;What a Shortcode is&lt;/h2&gt;
 &lt;p&gt;Hugo loves Markdown because of its simple content format, but there are times when Markdown falls short. Often, content authors are forced to add raw HTML (e.g., video &lt;code&gt;&amp;lt;iframes&amp;gt;&lt;/code&gt;) to Markdown content. We think this contradicts the beautiful simplicity of Markdown&amp;rsquo;s syntax.&lt;/p&gt;
@@ -817,10 +817,10 @@ Yes !.
     
     <item>
       <title>Image Preview</title>
-      <link>http://localhost:1313/post/image-preview/</link>
+      <link>https://guolalala.github.io/post/image-preview/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/image-preview/</guid>
+      <guid>https://guolalala.github.io/post/image-preview/</guid>
       
         <description>&lt;p&gt;Thanks for &lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery&#34;&gt;liwenyip/hugo-easy-gallery&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane/pull/48&#34;&gt;Zebradil · Pull Request #48&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;Now, we could use &lt;code&gt;{{&amp;lt; gallery &amp;gt;}}&lt;/code&gt; shortcode in hugo-theme-jane.&lt;/p&gt;
@@ -905,10 +905,10 @@ Yes !.
     
     <item>
       <title>Shortcodes Notice Preview</title>
-      <link>http://localhost:1313/post/shortcode-notice/</link>
+      <link>https://guolalala.github.io/post/shortcode-notice/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/shortcode-notice/</guid>
+      <guid>https://guolalala.github.io/post/shortcode-notice/</guid>
       
         <description>&lt;h2 id=&#34;normal-use&#34;&gt;normal use&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;Note&lt;/code&gt; example:&lt;/p&gt;
@@ -943,10 +943,10 @@ A warning disclaimer
     
     <item>
       <title>Jane-Theme Footnote Preview</title>
-      <link>http://localhost:1313/post/doc-footnote-preview/</link>
+      <link>https://guolalala.github.io/post/doc-footnote-preview/</link>
       <pubDate>Thu, 01 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/doc-footnote-preview/</guid>
+      <guid>https://guolalala.github.io/post/doc-footnote-preview/</guid>
       
         <description>&lt;p&gt;Hugo-theme-jane optimized for footnote. When you mouse hover the footnote&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; , footnote content will be displayed.&lt;/p&gt;
 &lt;h2 id=&#34;footnote-1&#34;&gt;Footnote-1&lt;/h2&gt;
@@ -1012,10 +1012,10 @@ A warning disclaimer
     
     <item>
       <title>English Creating a New Theme</title>
-      <link>http://localhost:1313/post/english-preview/</link>
+      <link>https://guolalala.github.io/post/english-preview/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/english-preview/</guid>
+      <guid>https://guolalala.github.io/post/english-preview/</guid>
       
         <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;
@@ -1828,10 +1828,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>This is a very long title This is a very long title This is a very long title This is a very long title This is a very long title</title>
-      <link>http://localhost:1313/post/this-is-a-very-long-title/</link>
+      <link>https://guolalala.github.io/post/this-is-a-very-long-title/</link>
       <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/this-is-a-very-long-title/</guid>
+      <guid>https://guolalala.github.io/post/this-is-a-very-long-title/</guid>
       
         <description>&lt;p&gt;This is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long title&lt;/p&gt;
 </description>
@@ -1840,10 +1840,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>Creating a New Theme</title>
-      <link>http://localhost:1313/post/creating-a-new-theme/</link>
+      <link>https://guolalala.github.io/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/creating-a-new-theme/</guid>
+      <guid>https://guolalala.github.io/post/creating-a-new-theme/</guid>
       
         <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;
@@ -2657,10 +2657,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://localhost:1313/post/goisforlovers/</link>
+      <link>https://guolalala.github.io/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/goisforlovers/</guid>
+      <guid>https://guolalala.github.io/post/goisforlovers/</guid>
       
         <description>&lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&#34;&gt;html/template&lt;/a&gt; library for
 its template engine. It is an extremely lightweight engine that provides a very
@@ -2699,7 +2699,7 @@ functions.&lt;/p&gt;
 &lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-&lt;a href=&#34;http://localhost:1313/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;https://guolalala.github.io/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
 &lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;title&amp;gt;{{ .Title }}&amp;lt;/title&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
@@ -2710,7 +2710,7 @@ page you are rendering. More details are available on the
 &lt;h2 id=&#34;functions&#34;&gt;Functions&lt;/h2&gt;
 &lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. &lt;a href=&#34;http://localhost:1313/layout/functions&#34;&gt;Hugo template
+available functions with their own. &lt;a href=&#34;https://guolalala.github.io/layout/functions&#34;&gt;Hugo template
 functions&lt;/a&gt; provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -2841,7 +2841,7 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.&lt;/p&gt;
 &lt;h2 id=&#34;using-content-page-parameters&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
 &lt;p&gt;In each piece of content you can provide variables to be used by the
-templates. This happens in the &lt;a href=&#34;http://localhost:1313/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+templates. This happens in the &lt;a href=&#34;https://guolalala.github.io/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&amp;rsquo;t make a lot of sense. We&amp;rsquo;ve defined a variable in our front matter
@@ -2901,16 +2901,16 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://localhost:1313/post/hugoisforlovers/</link>
+      <link>https://guolalala.github.io/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hugoisforlovers/</guid>
+      <guid>https://guolalala.github.io/post/hugoisforlovers/</guid>
       
         <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
 &lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
 appropriate version for your os and architecture.&lt;/p&gt;
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://localhost:1313/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://guolalala.github.io/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;step-2-build-the-docs&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 &lt;p&gt;Hugo has its own example site which happens to also be the documentation site
 you are reading right now.&lt;/p&gt;
@@ -2966,10 +2966,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>http://localhost:1313/post/migrate-from-jekyll/</link>
+      <link>https://guolalala.github.io/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/migrate-from-jekyll/</guid>
+      <guid>https://guolalala.github.io/post/migrate-from-jekyll/</guid>
       
         <description>&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
@@ -2986,7 +2986,7 @@ With Jekyll, something that looked like&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;create-your-hugo-configuration-file&#34;&gt;Create your Hugo configuration file&lt;/h2&gt;
-&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;http://localhost:1313/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;https://guolalala.github.io/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
 &lt;h2 id=&#34;set-your-configuration-publish-folder-to-_site&#34;&gt;Set your configuration publish folder to &lt;code&gt;_site&lt;/code&gt;&lt;/h2&gt;
 &lt;p&gt;The default is for Jekyll to publish to &lt;code&gt;_site&lt;/code&gt; and for Hugo to publish to &lt;code&gt;public&lt;/code&gt;. If, like me, you have &lt;a href=&#34;http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html&#34;&gt;&lt;code&gt;_site&lt;/code&gt; mapped to a git submodule on the &lt;code&gt;gh-pages&lt;/code&gt; branch&lt;/a&gt;, you&amp;rsquo;ll want to do one of two alternatives:&lt;/p&gt;
 &lt;ol&gt;
@@ -3008,10 +3008,10 @@ With Jekyll, something that looked like&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;convert-jekyll-templates-to-hugo-templates&#34;&gt;Convert Jekyll templates to Hugo templates&lt;/h2&gt;
-&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;http://localhost:1313/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;https://guolalala.github.io/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
 &lt;p&gt;As a single reference data point, converting my templates for &lt;a href=&#34;http://heyitsalex.net/&#34;&gt;heyitsalex.net&lt;/a&gt; took me no more than a few hours.&lt;/p&gt;
 &lt;h2 id=&#34;convert-jekyll-plugins-to-hugo-shortcodes&#34;&gt;Convert Jekyll plugins to Hugo shortcodes&lt;/h2&gt;
-&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;http://localhost:1313/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
+&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;https://guolalala.github.io/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
 &lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
 &lt;p&gt;As an example, I was using a custom &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb&#34;&gt;&lt;code&gt;image_tag&lt;/code&gt;&lt;/a&gt; plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.&lt;/p&gt;
 &lt;p&gt;Jekyll&amp;rsquo;s plugin:&lt;/p&gt;
@@ -3110,10 +3110,10 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
     
     <item>
       <title>Syntax Highlighting</title>
-      <link>http://localhost:1313/post/syntax-highlighting/</link>
+      <link>https://guolalala.github.io/post/syntax-highlighting/</link>
       <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/syntax-highlighting/</guid>
+      <guid>https://guolalala.github.io/post/syntax-highlighting/</guid>
       
         <description>&lt;p&gt;More detail: &lt;a href=&#34;https://gohugo.io/content-management/syntax-highlighting/&#34;&gt;Syntax Highlighting | Hugo&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;helloWorld&lt;/span&gt; () {

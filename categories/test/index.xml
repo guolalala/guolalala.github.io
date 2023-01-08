@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>test on Guolala&#39;s Blog</title>
-    <link>http://localhost:1313/categories/test/</link>
+    <link>https://guolalala.github.io/categories/test/</link>
     <description>Recent content in test on Guolala&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 30 Aug 2017 15:43:48 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2017 15:43:48 +0800</lastBuildDate><atom:link href="https://guolalala.github.io/categories/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This is a very long title This is a very long title This is a very long title This is a very long title This is a very long title</title>
-      <link>http://localhost:1313/post/this-is-a-very-long-title/</link>
+      <link>https://guolalala.github.io/post/this-is-a-very-long-title/</link>
       <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/this-is-a-very-long-title/</guid>
+      <guid>https://guolalala.github.io/post/this-is-a-very-long-title/</guid>
       <description>This is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long titleThis is a very long title</description>
     </item>
     

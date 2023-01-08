@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tag-7 on Guolala&#39;s Blog</title>
-    <link>http://localhost:1313/tags/tag-7/</link>
+    <link>https://guolalala.github.io/tags/tag-7/</link>
     <description>Recent content in tag-7 on Guolala&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 03 Mar 2018 16:01:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/tag-7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Mar 2018 16:01:23 +0800</lastBuildDate><atom:link href="https://guolalala.github.io/tags/tag-7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Image Preview</title>
-      <link>http://localhost:1313/post/image-preview/</link>
+      <link>https://guolalala.github.io/post/image-preview/</link>
       <pubDate>Sat, 03 Mar 2018 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/image-preview/</guid>
+      <guid>https://guolalala.github.io/post/image-preview/</guid>
       <description>&lt;p&gt;Thanks for &lt;a href=&#34;https://github.com/liwenyip/hugo-easy-gallery&#34;&gt;liwenyip/hugo-easy-gallery&lt;/a&gt; &amp;amp; &lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane/pull/48&#34;&gt;Zebradil · Pull Request #48&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;Now, we could use &lt;code&gt;{{&amp;lt; gallery &amp;gt;}}&lt;/code&gt; shortcode in hugo-theme-jane.&lt;/p&gt;
 &lt;h2 id=&#34;normal-image&#34;&gt;Normal Image&lt;/h2&gt;

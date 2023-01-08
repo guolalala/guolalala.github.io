@@ -1,365 +1,365 @@
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://guolalala.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/post/jane-theme-preview/</loc>
+    <loc>https://guolalala.github.io/post/jane-theme-preview/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://guolalala.github.io/about/</loc>
     <lastmod>2017-08-28T21:41:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://guolalala.github.io/tags/ai/</loc>
     <lastmod>2023-01-08T21:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/blog/</loc>
+    <loc>https://guolalala.github.io/categories/blog/</loc>
     <lastmod>2023-01-08T21:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://guolalala.github.io/categories/</loc>
     <lastmod>2023-01-08T21:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://guolalala.github.io/</loc>
     <lastmod>2023-01-08T21:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://guolalala.github.io/post/</loc>
     <lastmod>2023-01-08T21:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://guolalala.github.io/tags/</loc>
     <lastmod>2023-01-08T21:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/ai-survey/</loc>
+    <loc>https://guolalala.github.io/post/ai-survey/</loc>
     <lastmod>2023-01-08T21:08:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/contribute/</loc>
+    <loc>https://guolalala.github.io/tags/contribute/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/development/</loc>
+    <loc>https://guolalala.github.io/categories/development/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/go/</loc>
+    <loc>https://guolalala.github.io/tags/go/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/golang/</loc>
+    <loc>https://guolalala.github.io/tags/golang/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/how-to-contribute/</loc>
+    <loc>https://guolalala.github.io/post/how-to-contribute/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://guolalala.github.io/tags/hugo/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/index/</loc>
+    <loc>https://guolalala.github.io/categories/index/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/docs/</loc>
+    <loc>https://guolalala.github.io/categories/docs/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/math/</loc>
+    <loc>https://guolalala.github.io/tags/math/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/math/</loc>
+    <loc>https://guolalala.github.io/categories/math/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/math-preview/</loc>
+    <loc>https://guolalala.github.io/post/math-preview/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/preview/</loc>
+    <loc>https://guolalala.github.io/tags/preview/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/tag-6/</loc>
+    <loc>https://guolalala.github.io/tags/tag-6/</loc>
     <lastmod>2019-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
+    <loc>https://guolalala.github.io/tags/shortcodes/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/shortcodes/</loc>
+    <loc>https://guolalala.github.io/categories/shortcodes/</loc>
     <lastmod>2018-03-07T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/shortcodes-preview/</loc>
+    <loc>https://guolalala.github.io/post/shortcodes-preview/</loc>
     <lastmod>2018-03-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/image/</loc>
+    <loc>https://guolalala.github.io/tags/image/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/image-preview/</loc>
+    <loc>https://guolalala.github.io/post/image-preview/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/shortcode-notice/</loc>
+    <loc>https://guolalala.github.io/post/shortcode-notice/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/tag-7/</loc>
+    <loc>https://guolalala.github.io/tags/tag-7/</loc>
     <lastmod>2018-03-04T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/footnote/</loc>
+    <loc>https://guolalala.github.io/tags/footnote/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/doc-footnote-preview/</loc>
+    <loc>https://guolalala.github.io/post/doc-footnote-preview/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://guolalala.github.io/tags/markdown/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/tag-11/</loc>
+    <loc>https://guolalala.github.io/tags/tag-11/</loc>
     <lastmod>2018-03-01T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/english/</loc>
+    <loc>https://guolalala.github.io/tags/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/english/</loc>
+    <loc>https://guolalala.github.io/categories/english/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/english-preview/</loc>
+    <loc>https://guolalala.github.io/post/english-preview/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/tag-2/</loc>
+    <loc>https://guolalala.github.io/tags/tag-2/</loc>
     <lastmod>2017-08-31T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/test/</loc>
+    <loc>https://guolalala.github.io/categories/test/</loc>
     <lastmod>2017-08-30T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/this-is-a-very-long-title/</loc>
+    <loc>https://guolalala.github.io/post/this-is-a-very-long-title/</loc>
     <lastmod>2017-08-30T15:43:48+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/creating-a-new-theme/</loc>
+    <loc>https://guolalala.github.io/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/development/</loc>
+    <loc>https://guolalala.github.io/tags/development/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/golang/</loc>
+    <loc>https://guolalala.github.io/categories/golang/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/templates/</loc>
+    <loc>https://guolalala.github.io/tags/templates/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/themes/</loc>
+    <loc>https://guolalala.github.io/tags/themes/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/goisforlovers/</loc>
+    <loc>https://guolalala.github.io/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/hugoisforlovers/</loc>
+    <loc>https://guolalala.github.io/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/jekyll/</loc>
+    <loc>https://guolalala.github.io/tags/jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/migrate-from-jekyll/</loc>
+    <loc>https://guolalala.github.io/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/syntax-highlighting/</loc>
+    <loc>https://guolalala.github.io/tags/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/syntax-highlighting/</loc>
+    <loc>https://guolalala.github.io/categories/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/syntax-highlighting/</loc>
+    <loc>https://guolalala.github.io/post/syntax-highlighting/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/tag-5/</loc>
+    <loc>https://guolalala.github.io/tags/tag-5/</loc>
     <lastmod>2017-08-30T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

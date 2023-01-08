@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>math on Guolala&#39;s Blog</title>
-    <link>http://localhost:1313/categories/math/</link>
+    <link>https://guolalala.github.io/categories/math/</link>
     <description>Recent content in math on Guolala&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 Mar 2019 16:01:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Mar 2019 16:01:23 +0800</lastBuildDate><atom:link href="https://guolalala.github.io/categories/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Math Preview</title>
-      <link>http://localhost:1313/post/math-preview/</link>
+      <link>https://guolalala.github.io/post/math-preview/</link>
       <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/math-preview/</guid>
+      <guid>https://guolalala.github.io/post/math-preview/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.intmath.com/cg5/katex-mathjax-comparison.php&#34;&gt;KaTeX and MathJax Comparison Demo, currently processed as KaTex&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
