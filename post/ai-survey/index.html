@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="zh-cn" itemscope itemtype="http://schema.org/WebPage">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>人工智能调研报告 - Guolala&#39;s Blog</title>
+  
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="Guolala" /><meta name="description" content="人工智能调研报告：自监督学习和多模态学习" />
+
+  <meta name="keywords" content="Hugo, theme, jane" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.84.4" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/ai-survey/" />
+
+
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/sass/jane.min.de22abc00de44766eebd1054fd9e0b254b071f89d5019044f893c484a9249a8d.css" integrity="sha256-3iKrwA3kR2buvRBU/Z4LJUsHH4nVAZBE&#43;JPEhKkkmo0=" media="screen" crossorigin="anonymous">
+
+
+
+
+
+
+
+<meta property="og:title" content="人工智能调研报告" />
+<meta property="og:description" content="人工智能调研报告：自监督学习和多模态学习" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/ai-survey/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-01-08T21:08:42+08:00" />
+<meta property="article:modified_time" content="2023-01-08T21:08:42+08:00" />
+
+<meta itemprop="name" content="人工智能调研报告">
+<meta itemprop="description" content="人工智能调研报告：自监督学习和多模态学习"><meta itemprop="datePublished" content="2023-01-08T21:08:42+08:00" />
+<meta itemprop="dateModified" content="2023-01-08T21:08:42+08:00" />
+<meta itemprop="wordCount" content="6319">
+<meta itemprop="keywords" content="AI," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="人工智能调研报告"/>
+<meta name="twitter:description" content="人工智能调研报告：自监督学习和多模态学习"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">G-Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/">Home</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/">Archives</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/">Tags</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/">Categories</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/about/">About</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/">external-link</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          <div class="mobile-menu-parent">
+            <span class="mobile-submenu-open"></span>
+            <a href="http://localhost:1313/">
+              docs
+            </a>
+          </div>
+          <ul class="mobile-submenu-list">
+            
+              <li>
+                <a href="http://localhost:1313/post/shortcodes-preview/">Shortcodes Preview</a>
+              </li>
+            
+              <li>
+                <a href="http://localhost:1313/post/image-preview/">Image Preview</a>
+              </li>
+            
+              <li>
+                <a href="http://localhost:1313/post/syntax-highlighting/">Syntax Highlighting</a>
+              </li>
+            
+              <li>
+                <a href="http://localhost:1313/post/math-preview/">Math Preview</a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+
+    
+  </ul>
+</nav>
+
+
+  
+    
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+  
+
+  
+
+  
+
+  <header id="header" class="header container">
+    <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      G-Blog
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/">Home</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/">Archives</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/">Tags</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/">Categories</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/about/">About</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://localhost:1313/">external-link</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          <a class="menu-item-link menu-parent" href="http://localhost:1313/">docs</a>
+          <ul class="submenu">
+            
+              <li class="submenu-item">
+                <a href="http://localhost:1313/post/shortcodes-preview/">Shortcodes Preview</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://localhost:1313/post/image-preview/">Image Preview</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://localhost:1313/post/syntax-highlighting/">Syntax Highlighting</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://localhost:1313/post/math-preview/">Math Preview</a>
+              </li>
+            
+          </ul>
+
+        
+
+      </li>
+    
+
+    
+    
+
+    
+  </ul>
+</nav>
+
+  </header>
+
+  <div id="mobile-panel">
+    <main id="main" class="main bg-llight wallpaper">
+      <div class="content-wrapper">
+        <div id="content" class="content container">
+          <article class="post bg-white">
+    
+    <header class="post-header">
+      <h1 class="post-title">人工智能调研报告</h1>
+      
+
+      <div class="post-meta">
+  <div class="post-meta-author">
+    by
+      <a href="/about">
+        <span class="post-meta-author-name">
+          Guolala
+        </span>
+      </a>
+    
+  </div>
+
+  <div class="post-meta-time">
+    <time datetime="2023-01-08">
+      2023-01-08
+    </time>
+  </div>
+
+  
+
+
+  <div class="post-meta__right">
+    
+
+    <div class="post-meta-category">
+        <a href="http://localhost:1313/categories/blog/"> Blog </a>
+          
+      </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#0-引言">0 引言</a></li>
+    <li><a href="#1-发展现状">1 发展现状</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#2-技术难点">2 技术难点</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#3-发展趋势">3 发展趋势</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#参考文献">参考文献</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+
+
+    
+    <div class="post-content">
+      <!-- raw HTML omitted -->
+<h2 id="0-引言">0 引言</h2>
+<p>从1956年达特茅斯会议首次定义“人工智能”（Artificial Intelligence，AI）开始，AI研究已经经历了几次历史沉浮。在一次又一次的高潮和低谷的交替中，不可否认，AI无论是在理论还是实践上都取得了扎实的进步，人类对于智能的理解进一步加深。尤其是近期以深度学习（Deep Learning，DL）为代表的AI技术取得了突破性的进展，从而在全世界范围内又掀起了一个AI研究热潮。</p>
+<p>面对新一阶段的人工智能热潮，当下的研究发展现状如何，多模态和自监督的发展状况如何，当下的技术难点以及未来的发展趋势如何，我们下面进行一个介绍。</p>
+<h2 id="1-发展现状">1 发展现状</h2>
+<p>人工智能的发展大致经历了知识管理、统计学系、机器学习，到现在的深度学习四个不同的阶段。2006年Hinton团队实现了对深度的多层网络的训练，他们尝试构建了DBN（Deep Belief Nets），从理论和实践证明了对具有多层的网络进行训练是可行的<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，这被视为深度学习上的重要突破，在这之后，人们重燃了对神经网络的兴趣。在此之后，深度学习逐渐在CV，NLP，语音识别领域取得重要成果。</p>
+<p>深度学习在实际应用中的成功案例首推图像识别。2009年，普林斯顿大学建立了第一个超大型图像数据库供计算机视觉研究者使用<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>，随后在以 ImageNet 为基础的大型图像识别竞赛中，Hinton团队将深度学习应用到 ImageNet 图像识别问题上，正确率稳居第一<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>。</p>
+<p>最先在语音识别上取得成功的深度学习方法同样是Hinton等在文献<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>中的方法，该方法用RBM对神经网络进行预训练，再用深度学习网络模型（DNN）识别语音。在Google的一个基准测试中，单词错误率降低到了12.3%。文献<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>用RNN/LSTM等技术在音位错误率测试中优于同期的所有其他技术，人工智能在语音识别上的成功是继图像识别之后的又一个技术突破。</p>
+<p>2013年和2014年是NLP问题开始引入神经网络模型的时期，循环神经网络（RNNs），卷积神经网络（CNNs）和递归神经网络是使用最广泛的三种主要的神经网络。</p>
+<p>在过去十年，深度神经网络在各种机器学习任务上表现出了卓越的性能，尤其是在CV，NLP和图学习的监督学习上。但是，监督学习正在解决其瓶颈，它不仅严重依赖昂贵的手动标记，而且还存在泛化错误，虚假相关性和对抗性攻击。此时，自监督学习（Self- Supervised Learning）因其出色的数据效率和泛化能力而收到广泛关注<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>。</p>
+<h4 id="模型自监督">模型自监督</h4>
+<p>那么何为<strong>自监督学习</strong>？一般来说机器学习分为有监督学习、无监督学习和强化学习，而自监督学习是无监督学习里面的一种，主要是希望能够学习到一种通用的特征表达用于下游任务 (Downstream Tasks)。也就是说，自监督学习主要是利用辅助任务（pretext）从大规模的无监督数据中挖掘自身的监督信息，通过这种构造的监督信息对网络进行训练，从而可以学习到对下游任务有价值的表征。</p>
+<p>在2014年生成对抗网络（GAN）<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>推出之后，生成模型得到了很多关注，成为其后很多模型，例如CycleGAN，StyleGAN，PixelRNN的基础，这些模型启发研究者去研究不需要标签的自监督学习。</p>
+<hr>
+<p>2018年Google团队提出的BERT模型是<strong>NLP领域</strong>的一个经典的自监督学习模型，BERT整体是一个自编码语言模型（Autoencoder LM），通过MaskLM和句子连续性预测两个任务来进行预训练<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>。预训练好的 BERT 模型，只需要少量的带标签数据集，就可以在无数下游任务 (Downstream Tasks) 中完成微调 (Fine-tune)，得到一个个不同的适用于下游任务的性能卓著的model。</p>
+<p>特别是近年来预训练模型已成为NLP的研究热点。一些预训练语言模型如BERT和GPT，在许多下游任务中都取得了瞩目的成果。随着GPT- 3（OpenAI最新的大规模语言模型）<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>的发布，pre-training语言模型已经成为NLP界最关注的问题。</p>
+<hr>
+<p><strong>CV领域</strong>的经典自监督模型是Hinton团队在2020年提出的SimCLR模型，如果说BERT是通过Prediction（预测）来预训练模型，那么SimCLR就是通过Constractive（对比）来进行自监督学习的。SimCLR是一个通过对比学习用于视觉表征的简单框架，通过隐藏空间的对比损失最大化相同数据在不同增广下的一致性来学习表达<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>。</p>
+<p>微软团队的Hangbo Bao等人在2021年提出的BEiT是把BERT模型成功应用在image领域的首创，作者在预训练中的目标是基于损坏的图像patch恢复原始视觉token<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>。在预训练BEIT之后，作者通过在预训练编码器上附加任务层，直接微调下游任务上的模型参数。在图像分类和语义分割方面的实验结果表明，该模型与以前的预训练方法相比取得了较好的效果。</p>
+<p>FaceBook AI 团队在2019年提出的MoCo是在SimCLR诞生之前的一种比较流行的无监督的视觉标识学习，通过<strong>对比学习</strong>作为字典查找的方法，MoCo学习到的表示可以很好的转移到下游任务中，MoCo在PASCAL VOC、COCO和其他数据集上的7个检测/分割任务中优于其有监督的训练，有时会大大超过它。这表明，在许多视觉任务中，无监督和监督表征学习之间的差距在很大程度上被缩小<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup>。</p>
+<p>进一步的，在2020年SimCLR发布之后，作者们整合了SimCLR中的两个主要提升方法到了MoCo中，提出了MoCo v2，并且验证了SimCLR算法的有效性。结果显示，MoCo v2的结果取得了进一步的提升并超过了 SimCLR<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup>。在2021年，MoCo v3被提出来，将目前无监督学习最常用的对比学习应用在ViT上，作者给出的结论是：影响自监督ViT模型训练的关键是：instability，即训练的不稳定性。而这种训练的不稳定性所造成的结果并不是训练过程无法收敛 (convergence)，而是性能的轻微下降 （下降1%-3%的精度）<sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup>。</p>
+<p>2021年11月，何恺明提出了一种用于计算机视觉的可扩展自监督学习方案Masked AutoEncoders（MAE），模型对输入图像的随机快进行mask并对遗失像素进行重建<sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup>，在两个核心设计下，模型可以更高效的训练大模型，同时可以提升模型精度，并且MAE可以使高精度模型具有很好的泛化性能：仅需ImageNet-1k，Vit-Huge取得了87.8%的top1精度。同时模型在CV和NLP领域中表现差异的问题，何恺明提出了三条看法：</p>
+<ul>
+<li>CV和NLP主流框架不同，CV中常采用卷积这种具有”规则性“的操作，直到近期ViT才打破了架构差异；</li>
+<li>语言和图片 (视频) 的信息密度不同；</li>
+<li>自编码器的解码器在重建方面的作用不同。</li>
+</ul>
+<h4 id="多模态学习">多模态学习</h4>
+<p>早期的深度学习算法专注于从一个单一的数据源训练其模型。例如，看—基于图像训练的CV模型和基于文本训练的NLP模型，听—基于声学模型的唤醒词检测、噪音消除的语音处理。早期的深度学习与单模态人工智能有关，其结果都被映射到一个单一的数据类型来源。</p>
+<p>而为了让人工智能在理解我们周围的世界方面取得进展，它需要能够解释和推理多种模态的信息。多模态机器学习旨在建立能够处理和关联来自多种模态信息的模型，将图像和文本等不同模态的信息统一编码进一个通用的神经空间，例如Visual QA问题：给定一张图片和一个图片相关的问题，模型需要理解图片内容，给出对于问题的答复。</p>
+<p>模态学习逐渐成为如今深度学习的重要趋势，其主要包括以下几个研究方向：</p>
+<ol>
+<li>多模态表示学习：主要研究如何将多个模态数据所蕴含的语义信息数值化为实值向量；</li>
+<li>模态间映射：主要研究如何将某一特定模态数据中的信息映射至另一模态；</li>
+<li>对齐：主要研究如何识别不同模态之间的部件、元素的对应关系；</li>
+<li>融合：主要研究如何整合不同模态间的模型与特征；</li>
+<li>协同学习：主要研究如何将信息富集的模态上学习的知识迁移到信息匮乏的模态，使各个模态的学习互相辅助。典型的方法包括多模态的零样本学习、领域自适应等</li>
+</ol>
+<p>2000年左右，互联网的兴起促进了跨模态检索的应用。早期搜索引擎人们使用文本（关键词）来搜索图片、视频，近年来出现以图搜图，以图搜视频等。接着，基于多模态数据的人类社交行为理解被提出。2005年出现了基于面部表情和姿势变化的多模态情感识别系统<sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup>。2015年后，联合视觉与语言的任务大量出现并逐渐成为热点，其中代表性任务是图像描述（image captioning）<sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>，即生成一句话对一幅图的主要内容进行描述，同时，文本-&gt;图像，视频-&gt;文本，文本-&gt;视频等任务也被提出。</p>
+<p>在2020年，微软团队就提出过一个用于联合多模态嵌入的大规模预训练模型UNITER（Universal Image-TExt Representation）<sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup>。</p>
+<p>2021年，OpenAI提出了CLIP模型，模型架构氛围图像编码器和文本编码器，该模型可以根据一段句子去检索出相应的图片，并且体现出了惊人的准确性<sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup>。自此，CLIP模型开启了2021年多模态学习的新篇章。</p>
+<p>随后，与OpenAI CLIP采用简单的对比学习方法不同，Yuqi Huo等人提出了一种更先进的算法（BriVL模型），将最新的MoCo方法应用到跨模态场景中，通过建立一个大型的基于队列的字典，BriVL可以在有限的GPU资源中加入更多的负面样本，进一步构建了一个大型的中文多源图文数据集，用于对我们的BriVL模型进行预训练<sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup>。大量的实验表明，预先训练好的BriVL模型在各种下游任务上都优于UNITER和OpenAI CLIP。</p>
+<p>同在2021年，阿里巴巴发布最大规模的中文多模态预训练模型M6<sup id="fnref:21"><a href="#fn:21" class="footnote-ref" role="doc-noteref">21</a></sup> ，该模型参数规模达到了1000亿，可以完成根据产品描述生成图像，生成诗歌以及视觉问答等任务。</p>
+<p>今年4月，OpenAI又发布了一种可以根据自然语言描述来生成图像的AI系统DALL.E 2，该系统可以根据自然语言描述的标题对现有图像进行逼真的编辑和风格变化<sup id="fnref:22"><a href="#fn:22" class="footnote-ref" role="doc-noteref">22</a></sup>。</p>
+<p>上海数字大脑研究院《2022年上半年度人工智能行业报告》表示，多模态学习能够表征不同模态的信息，并且可以根据观察到的模态推知缺失的模态，被认为是更接近人类学习方式，也是一种实现终极人工智能的重要途径。</p>
+<h2 id="2-技术难点">2 技术难点</h2>
+<h4 id="自监督学习">自监督学习</h4>
+<ul>
+<li><strong>理论不足</strong>。尽管自监督学习取得了巨大的成功，但很少有著作研究其背后的机制。在<sup id="fnref:23"><a href="#fn:23" class="footnote-ref" role="doc-noteref">23</a></sup>中研究人员提出了一个概念框架来分析对比目标在泛化能力中的作用。 <sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup>从经验上证明，互信息与几种基于MI的方法的成功并不密切相关，而采样策略和模型结构设计可能更相关。 这种类型的工作对于自监督学习形成坚实的基础至关重要，因此迫切需要进行更多与理论分析有关的工作。</li>
+<li><strong>下游任务迁移</strong>。预训练和下游任务之间存在本质差距。 研究人员设计了精心设计的Pretext任务，以帮助模型学习可以转移到其他工作的数据集的某些关键特征，但有时这可能无法实现。 此外，选择Pretext任务的过程似乎过于启发和困难，无法遵循模式。</li>
+<li><strong>采样策略不够强</strong>。在<sup id="fnref:24"><a href="#fn:24" class="footnote-ref" role="doc-noteref">24</a></sup>中，作者将基于互信息的方法成功的原因之一归因于更好的采样策略。 MoCo <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup>，SimCLR <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>和其他一系列对比方法也可能支持这一结论。作者提议利用超大量的负样本和增强的正样本，在深度度量学习中研究其效果。如何进一步释放采样能力仍然是一个尚未解决的有吸引力的问题。</li>
+<li><strong>对比学习的早期退化</strong>。对比学习方法，例如MoCo <sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup>和SimCLR <sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup>，正在迅速接近计算机视觉监督学习的性能。但是，它们的性能通常仅限于分类问题。同时，用于语言模型预训练的生成对比方法ELETRA虽然 <sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup>在具有较少模型参数的几个标准NLP基准上也优于其他生成方法，但是一些评论表明ELETRA在语言生成和神经实体提取方面的表现不尽人意。上面的问题可能是因为对比目标经常陷入嵌入空间的早期退化问题，这意味着该模型过早地适合于区分性Pretext任务，因此失去了泛化能力。需要有技术或新的范例来解决早期退化问题，同时保留对比学习的优势<sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup>。</li>
+</ul>
+<h4 id="多模态学习-1">多模态学习</h4>
+<ul>
+<li>特异性表示学习，相关工作往往仅限于两个模态的情况，对于更多模态同时存在的情况下的特异性表示学习则有待进一步研究。</li>
+<li>多模态映射问题面临的一大问题是难以设计评价指标来度量模型的优劣。尤其是在某些生成式的任务中，如对图像进行描述和标注，往往不存在唯一正确的“标准答案”，映射过程容易受到主观影响，使得最终结果无法确认同一实体在不同模态间的表示。</li>
+<li>对齐中显式标注对齐信息的数据较少，不利于进行实验分析；设计不同模态之间的相似度度量指标较为困难，且人工设计费时费力；不同模态间元素的对齐过程往往存在一对多的关系，甚至还可能存在无法匹配的情况；受噪声影响大，尤其是当元素的匹配错位时模型性能下降严重。</li>
+<li>多模态融合问题中，每一种模态会受到不同类型和不同程度的噪声影响，导致融合得到的信息不能准确表达出应有的特征，并且在包含时序关系的多模态学习（如一段有声视频）中，每种模态可能遭受噪声干扰的时刻也可能不同。</li>
+<li>协同学习中，挖掘得到尽可能多的模态间的不同信息来促进模型的学习是一个技术难点。</li>
+</ul>
+<h2 id="3-发展趋势">3 发展趋势</h2>
+<h4 id="人工智能产业化成本与开发门槛逐步降低大型语言模型成为热点趋势">人工智能产业化成本与开发门槛逐步降低，大型语言模型成为热点趋势</h4>
+<p><strong>人工智能产业化性价比显著提高</strong>：从行业角度看，在AI模型表现进步的同时，训练成本逐步监督。自2018年以来，以图像分类为例，训练图像分类系统的成本下降了63.6%，而训练次数提高了94.4%，这将有效促进AI产业化落地。</p>
+<p>低代码/零代码AI开发资源不断丰富：国内外越来越多的AI服务商开始提供各种各样的低代码/零代码AI 开发平台，这将使得小公司有更多机会使用之前大公司才能够使用的复杂技术进行应用程序的创建，进而使得Al开发的技术门槛及成本将进一步降低。</p>
+<h4 id="医疗影音娱乐学术研究元宇宙等领域的应用落地加速">医疗、影音娱乐、学术研究、元宇宙等领域的应用落地加速</h4>
+<p>Al行业应用落地加速：技术侧算法与硬件的提升为Al开发所带来的降本增效极大地加快了AI行业与传统行业的融合以及在新兴行业的应用，新的Al使用场景在全球范围内不断落地。</p>
+<h2 id="参考文献">参考文献</h2>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Hinton, Geoffrey E., Simon Osindero, and Yee-Whye Teh. &ldquo;A fast learning algorithm for deep belief nets.&rdquo; <em>Neural computation</em> 18.7 (2006): 1527-1554.Hinton, G. E., Osindero, S., &amp; Teh, Y. W. (2006). A fast learning algorithm for deep belief nets. <em>Neural computation</em>, <em>18</em>(7), 1527-1554.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Deng, J., Dong, W., Socher, R., Li, L. J., Li, K., &amp; Fei-Fei, L. (2009, June). Imagenet: A large-scale hierarchical image database. In <em>2009 IEEE conference on computer vision and pattern recognition</em> (pp. 248-255). Ieee.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>俞祝良. (2017). 人工智能技术发展概述. 南京信息工程大学学报：自然科学版, 9(3), 8.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Hinton, G., Deng, L., Yu, D., Dahl, G. E., Mohamed, A. R., Jaitly, N., &hellip; &amp; Kingsbury, B. (2012). Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups. <em>IEEE Signal processing magazine</em>, <em>29</em>(6), 82-97.]]&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5" role="doc-endnote">
+<p>Graves, A., Mohamed, A. R., &amp; Hinton, G. (2013, May). Speech recognition with deep recurrent neural networks. In <em>2013 IEEE international conference on acoustics, speech and signal processing</em> (pp. 6645-6649). Ieee.&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6" role="doc-endnote">
+<p>Liu, X., Zhang, F., Hou, Z., Mian, L., Wang, Z., Zhang, J., &amp; Tang, J. (2021). Self-supervised learning: Generative or contrastive. IEEE Transactions on Knowledge and Data Engineering.&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7" role="doc-endnote">
+<p>Goodfellow, I. J. ,  Pouget-Abadie, J. ,  Mirza, M. ,  Xu, B. ,  Warde-Farley, D. , &amp;  Ozair, S. , et al. (2014). Generative adversarial networks.&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8" role="doc-endnote">
+<p>Devlin, J., Chang, M. W., Lee, K., &amp; Toutanova, K. (2018). Bert: Pre-training of deep bidirectional transformers for language understanding. <em>arXiv preprint arXiv:1810.04805</em>.&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9" role="doc-endnote">
+<p>Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., &hellip; &amp; Amodei, D. (2020). Language models are few-shot learners. <em>Advances in neural information processing systems</em>, <em>33</em>, 1877-1901.&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10" role="doc-endnote">
+<p>Chen, T., Kornblith, S., Norouzi, M., &amp; Hinton, G. (2020, November). A simple framework for contrastive learning of visual representations. In <em>International conference on machine learning</em> (pp. 1597-1607). PMLR.&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11" role="doc-endnote">
+<p>Bao, H., Dong, L., &amp; Wei, F. (2021). Beit: Bert pre-training of image transformers. <em>arXiv preprint arXiv:2106.08254</em>.&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12" role="doc-endnote">
+<p>He, K., Fan, H., Wu, Y., Xie, S., &amp; Girshick, R. (2020). Momentum contrast for unsupervised visual representation learning. In <em>Proceedings of the IEEE/CVF conference on computer vision and pattern recognition</em> (pp. 9729-9738).&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13" role="doc-endnote">
+<p>Chen, X., Fan, H., Girshick, R., &amp; He, K. (2020). Improved baselines with momentum contrastive learning. <em>arXiv preprint arXiv:2003.04297</em>.&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14" role="doc-endnote">
+<p>Chen, X., Xie, S., &amp; He, K. (2021). An empirical study of training self-supervised vision transformers. In <em>Proceedings of the IEEE/CVF International Conference on Computer Vision</em>(pp. 9640-9649).&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15" role="doc-endnote">
+<p>He, K., Chen, X., Xie, S., Li, Y., Dollár, P., &amp; Girshick, R. (2022). Masked autoencoders are scalable vision learners. In <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em> (pp. 16000-16009).&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16" role="doc-endnote">
+<p>Kapoor, A., &amp; Picard, R. W. (2005, November). Multimodal affect recognition in learning environments. In <em>Proceedings of the 13th annual ACM international conference on Multimedia</em>(pp. 677-682).&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17" role="doc-endnote">
+<p>Vinyals, O., Toshev, A., Bengio, S., &amp; Erhan, D. (2015). Show and tell: A neural image caption generator. In <em>Proceedings of the IEEE conference on computer vision and pattern recognition</em> (pp. 3156-3164).&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18" role="doc-endnote">
+<p>Chen, Y. C., Li, L., Yu, L., El Kholy, A., Ahmed, F., Gan, Z., &hellip; &amp; Liu, J. (2020, August). Uniter: Universal image-text representation learning. In <em>European conference on computer vision</em> (pp. 104-120). Springer, Cham.&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19" role="doc-endnote">
+<p>Radford, A., Kim, J. W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., &hellip; &amp; Sutskever, I. (2021, July). Learning transferable visual models from natural language supervision. In <em>International Conference on Machine Learning</em> (pp. 8748-8763). PMLR.&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20" role="doc-endnote">
+<p>Huo, Y., Zhang, M., Liu, G., Lu, H., Gao, Y., Yang, G., &hellip; &amp; Wen, J. R. (2021). WenLan: Bridging vision and language by large-scale multi-modal pre-training. <em>arXiv preprint arXiv:2103.06561</em>.&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:21" role="doc-endnote">
+<p>Lin, J., Men, R., Yang, A., Zhou, C., Ding, M., Zhang, Y., &hellip; &amp; Yang, H. (2021). M6: A chinese multimodal pretrainer. <em>arXiv preprint arXiv:2103.00823</em>.&#160;<a href="#fnref:21" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:22" role="doc-endnote">
+<p>Ramesh, A., Dhariwal, P., Nichol, A., Chu, C., &amp; Chen, M. (2022). Hierarchical text-conditional image generation with clip latents. <em>arXiv preprint arXiv:2204.06125</em>.&#160;<a href="#fnref:22" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:23" role="doc-endnote">
+<p>M. Arjovsky, S. Chintala, and L. Bottou. Wasserstein generative adversarial networks. In International conference on machine learning, pages 214–223. PMLR, 2017.&#160;<a href="#fnref:23" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:24" role="doc-endnote">
+<p>Z.Wang,Q.She,andT.E.Ward.Generativeadversarialnetworks: A survey and taxonomy. <em>arXiv preprint arXiv:1906.01529</em>, 2019.&#160;<a href="#fnref:24" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:25" role="doc-endnote">
+<p>Q. Dai, Q. Li, J. Tang, and D. Wang. Adversarial network embedding. In <em>AAAI</em>, 2018.&#160;<a href="#fnref:25" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:26" role="doc-endnote">
+<p>Liu, X., Zhang, F., Hou, Z., Mian, L., Wang, Z., Zhang, J., &amp; Tang, J. (2021). Self-supervised learning: Generative or contrastive. <em>IEEE Transactions on Knowledge and Data Engineering</em>.&#160;<a href="#fnref:26" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+    </div>
+
+    
+    
+
+
+
+    
+    
+
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="http://localhost:1313/tags/ai/">AI</a>
+            
+        </div>
+
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/jane-theme-preview/">
+            
+            <i class="iconfont">
+              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
+
+            </i>
+            <span class="prev-text nav-default">Jane 主题预览</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        
+          <a class="next" href="/post/how-to-contribute/">
+            <span class="next-text nav-default">How to Contribute</span>
+            <span class="prev-text nav-mobile">下一篇</span>
+            
+            <i class="iconfont">
+              <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+            </i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+
+  
+  
+
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+  
+
+    
+
+  
+
+  
+
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="icon-links">
+  
+  
+    <a href="/about" rel="me noopener" class="iconfont"
+      title="email"  target="_blank"
+      >
+      <svg class="icon" viewBox="0 0 1451 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.046997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 764.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.068979 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.644501 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.472759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.019477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.603883L718.063616 811.603883Z"></path>
+</svg>
+
+    </a>
+  
+    <a href="https://github.com/guolalala" rel="me noopener" class="iconfont"
+      title="github"  target="_blank"
+      >
+      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
+</svg>
+
+    </a>
+
+
+<a href="http://localhost:1313/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+    class="iconfont" title="rss" target="_blank">
+    <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="30" height="30">
+  <path d="M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c561.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
+</svg>
+
+  </a>
+  
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2022 -
+    2023
+    <span class="heart">
+      
+      <i class="iconfont">
+        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="14" height="14">
+  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
+   fill="#8a8a8a"></path>
+</svg>
+
+      </i>
+    </span><span class="author">
+        Guolala
+        
+      </span></span>
+
+  
+  
+
+  
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont">
+        
+        <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="35" height="35">
+  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
+</svg>
+
+      </i>
+    </div>
+  </div>
+  
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="/js/main.fe83e11b4fbc9193d67e2c9db78bad21f8dc59fca0cacd8c1c3bb071bb16a852.js" integrity="sha256-/oPhG0&#43;8kZPWfiydt4utIfjcWfygys2MHDuwcbsWqFI=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/js/load-photoswipe.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
